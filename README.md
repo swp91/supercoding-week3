@@ -1,5 +1,5 @@
 # supercoding-week3
-주소:https://swp91.github.io/supercoding-week3/
+주소: https://swp91.github.io/supercoding-week3/](https://supercoding-week3.netlify.app
 3주차 과제 주사위게임 입니다.
 1. 주사위를 굴립니다
 2. 1번과 2번이 각자 번갈아가면서 턴이 있으며,
