@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>주사위게임</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="dice-wrap">
+      <div>주사위값</div>
+      <div class="dice-value">0</div>
+    </div>
+    <div class="player-box">
+      <div class="player p1 line">
+        <h2 class="player-name">1번</h2>
+        <div class="point-wrap">
+          <div class="center">
+            <div>총점수</div>
+            <div class="play1-score">0</div>
+          </div>
+          <div class="center">
+            <div>주사위누적</div>
+            <div class="play1-acc accumulated">0</div>
+          </div>
+        </div>
+      </div>
+      <div class="player p2">
+        <h2 class="player-name">2번</h2>
+        <div class="point-wrap">
+          <div class="center">
+            <div>총점수</div>
+            <div class="play2-score">0</div>
+          </div>
+          <div class="center">
+            <div>주사위누적</div>
+            <div class="play2-acc">0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn-wrap">
+      <div class="reset btn">게임 초기화</div>
+      <div class="rolling btn">주사위 굴리기</div>
+      <div class="stop btn">스탑</div>
+    </div>
+    <div class="modal modal-1 none">
+      <div class="modal-window">
+        <div class="modal-dialog">1번의 승리입니다.</div>
+        <button class="modal1-btn ok">확인</button>
+      </div>
+    </div>
+    <div class="modal modal-2 none">
+      <div class="modal-window">
+        <div class="modal-dialog">2번의 승리입니다.</div>
+        <button class="modal2-btn ok">확인</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
